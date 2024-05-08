@@ -1,5 +1,6 @@
 [workspace]
 
 members = [
+    "my-first-burn-model",
     "my_burn_app",
 ]
