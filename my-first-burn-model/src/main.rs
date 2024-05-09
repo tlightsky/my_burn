@@ -1,5 +1,5 @@
 mod model;
-
+mod data;
 
 
 fn main() {
