@@ -1,3 +1,9 @@
+# Following [The Burn Book](https://burn.dev/book/basic-workflow/index.html)
+
+Building by uncomment build block and pass 0 as argument
+
+Also can be validated from [MINIST Viewer](https://observablehq.com/@davidalber/mnist-viewer)
+
 # DataLoader
 研究了下Batcher的类型系统是如何工作的，
 
