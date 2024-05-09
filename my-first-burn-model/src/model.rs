@@ -43,7 +43,7 @@ impl ModelConfig {
 }
 
 impl<B: Backend> Model<B> {
-    pub fn forward(self, images: Tensor<B, 3>) -> Tensor<B, 2> {
+    pub fn forward(&self, images: Tensor<B, 3>) -> Tensor<B, 2> {
         let [batch_size, height, width] = images.dims();
 
         let x = images.reshape([batch_size, 1, height, width]);
